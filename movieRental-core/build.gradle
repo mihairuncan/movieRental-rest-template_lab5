@@ -1,0 +1,18 @@
+
+dependencies {
+
+    //jpa
+    compile group: 'org.springframework', name: 'spring-context-support', version: "$springVersion"
+    compile group: 'org.springframework', name: 'spring-orm', version: "$springVersion"
+    compile group: 'org.springframework.data', name: 'spring-data-jpa', version: "$springDataVersion"
+
+    compile group: 'org.hibernate', name: 'hibernate-core', version:"$hibernateVersion"
+
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.16'
+
+    compile group: 'com.github.ben-manes.caffeine', name: 'caffeine', version: "$caffeineVersion"
+    compile group: 'com.zaxxer', name: 'HikariCP', version: "$hikariVersion"
+
+    compile group: 'javax.xml.bind', name: 'jaxb-api', version: "$jaxbapiVersion"
+}

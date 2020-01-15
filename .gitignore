@@ -1,0 +1,9 @@
+# Project exclude paths
+/.gradle/
+/movieRental-client/out/
+/movieRental-client/out/production/classes/
+/movieRental-core/out/
+/movieRental-core/out/production/classes/
+/movieRental-web/build/
+/movieRental-web/out/
+/movieRental-web/out/production/classes/

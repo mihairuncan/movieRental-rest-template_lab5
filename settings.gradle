@@ -1,0 +1,5 @@
+rootProject.name = 'movieRental-rest-template_lab5'
+include 'movieRental-core'
+include 'movieRental-web'
+include 'movieRental-client'
+
